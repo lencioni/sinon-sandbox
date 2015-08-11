@@ -1,0 +1,30 @@
+{
+  "name": "sinon-sandbox",
+  "version": "1.0.0",
+  "description": "A testing utility for framework agnostic cleanup of sinon stubs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "peerDependencies": {
+    "sinon": "*"
+  },
+  "devDependencies": {
+    "chai": "3.2.0",
+    "mocha": "2.2.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wealthfront/sinon-sandbox.git"
+  },
+  "keywords": [
+    "sinon",
+    "sandbox"
+  ],
+  "author": "Wealthfront Engineering <eng@wealthfront.com> (https://wealthfront.com)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/wealthfront/sinon-sandbox/issues"
+  },
+  "homepage": "https://github.com/wealthfront/sinon-sandbox#readme"
+}
