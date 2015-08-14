@@ -1,6 +1,6 @@
 {
   "name": "sinon-sandbox",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A testing utility for framework agnostic cleanup of sinon stubs",
   "main": "index.js",
   "scripts": {
