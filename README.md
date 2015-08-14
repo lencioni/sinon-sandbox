@@ -1,8 +1,8 @@
 # sinon-sandbox
 
 [![Build Status](https://travis-ci.org/wealthfront/sinon-sandbox.svg)](https://travis-ci.org/wealthfront/sinon-sandbox)
-[![devDependency Status](https://david-dm.org/wealthfront/sinon-sandbox.svg)](https://david-dm.org/TheSavior/find-parent#info=devDependencies)
-[![devDependency Status](https://david-dm.org/wealthfront/sinon-sandbox/dev-status.svg)](https://david-dm.org/TheSavior/find-parent#info=devDependencies)
+[![devDependency Status](https://david-dm.org/wealthfront/sinon-sandbox.svg)](https://david-dm.org/wealthfront/sinon-sandbox#info=devDependencies)
+[![devDependency Status](https://david-dm.org/wealthfront/sinon-sandbox/dev-status.svg)](https://david-dm.org/wealthfront/sinon-sandbox#info=devDependencies)
 
 Sinon-sandbox is a testing utility to make it easy to restore stubs after every test, agnostic of your team's testing framework of choice.
 
