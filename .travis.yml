@@ -1,0 +1,18 @@
+language: node_js
+script: npm test
+node_js:
+- node
+- io.js
+- '0.12'
+notifications:
+  email:
+  - eng+build+wealthfrontjavascript@wealthfront.com
+deploy:
+  provider: npm
+  email: ops+npm@wealthfront.com
+  api_key:
+    secure: wupA04ZlalZUvFSVwPdgTumcqbByzbld/Wh4N0gEqHS1RDaEEVfCYtpeJCFp/7bBPb3QxxQQr86T1lZgqru0XWQCS91lsHOkqE/kb+akv+MZnlhgrdRGw0R7Wmdc1neDvDlkNRBVwqYF3rTTGfSg4Ra5RiKu5Yibi7vcc9+0JFnqXyNDSsfGzSYQA8HjzeuMRet1kp8qNO0HkEExVckShg146AaJz/tTVfxv0Sx4qZT0JqgGGWhZaqKKQ74BPn3rVdJPXW1FL7H3XAucO+iv96hMNGbsjBX9Ro2XMx/JUnMW/UZtixs7O9vnDD6e8aT0BE446BbePH2trW/L4/47bNV24xnL4FQyT1rc2+MftWlTMy9T2b26gvXZoprcG4Vo46MJHK6JYZxbmZN/9oi0LzL67LaPyh1eukCV8yLbIOIWR9RNIugq17zUNuMSINDpbYSLGmj7LmqwKAOaFlznuwwePw06xCCBSzsyzPnN8wTqKosYzHHPYk21qF3h/nnS9XljSoz/sQeu3jEFzWAiAqSEhQv3S/zeojmm8EEsDfF69AmTTJE2ec6DT/+y8qv7HC8g0IKBfDaH7FXXNFbKy5p603zi9YFOvoOsD43ui3IvGhOhOYEcM2nvFMaFrEX2uiNC38ljEc79WAlZ5VfVAbhR+/uIq1688I2LTdDMe2k=
+  on:
+    tags: true
+    repo: wealthfront/sinon-sandbox
+    node: '0.12'
