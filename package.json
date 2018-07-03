@@ -7,7 +7,7 @@
     "test": "eslint . && jscs . && mocha"
   },
   "peerDependencies": {
-    "sinon": "*"
+    "sinon": ">=3.10.0"
   },
   "devDependencies": {
     "chai": "3.2.0",

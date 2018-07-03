@@ -2,6 +2,6 @@
 
 var sinon = require('sinon');
 
-var sandbox = sinon.sandbox.create();
+var sandbox = sinon.createSandbox();
 
 module.exports = sandbox;
