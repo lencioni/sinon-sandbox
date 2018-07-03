@@ -14,6 +14,7 @@
     "eslint": "1.1.0",
     "jscs": "2.1.0",
     "mocha": "2.2.5",
+    "sinon": "^6.1.0",
     "wealthfront-javascript": "2.3.0"
   },
   "repository": {
